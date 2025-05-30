@@ -38,5 +38,5 @@ A clean and responsive registration form built using HTML, CSS, and Bootstrap. I
 
 ## Screenshot
 
-![Screenshot 1 of Registration Form](images/Registration-Form-Screenshot-1.png)
-![Screenshot 2 of Registration Form](images/Registration-Form-Screenshot-2.png)
+![Screenshot 1 of Registration Form](Images/Registration-Form-Screenshot-1.png)
+![Screenshot 2 of Registration Form](Images/Registration-Form-Screenshot-2.png)
