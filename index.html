@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="form-div">
+        <div id="form-heading">
+            <span id="registration">Registration </span>
+            <span id="form">Form</span>
+        </div>
+        <div id="table-div">
+            <form>
+                <table id="table-1" class="table">
+                    <tr>
+                        <th colspan="3">PERSONAL INFORMATION</th>
+                        <td colspan="">Date <input type="date" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>FULL NAME </td>
+                        <td colspan="3"><input type="text" class="form-control" placeholder="Enter your full name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>GENDER</td>
+                        <td><input type="radio" name="gender" id="male"> <label for="male"> Male </label>
+                        </td>
+                        <td><input type="radio" name="gender" id="female"> <label for="female"> Female
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DATE OF BIRTH</td>
+                        <td><input type="date" class="form-control"></td>
+                        <td>PLACE OF BIRTH</td>
+                        <td><input type="text" class="form-control" placeholder="Enter place of birth"></td>
+                    </tr>
+                    <tr>
+                        <td>NATIONALITY</td>
+                        <td><input type="text" class="form-control" placeholder="Enter nationality"></td>
+                        <td>RELIGION</td>
+                        <td><input type="text" class="form-control" placeholder="Enter religion"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">RESIDENCE STATUS</td>
+                        <td><input type="radio" name="residence" id="residence"> <label for="residence">
+                                Residence
+                            </label> </td>
+                        <td><input type="radio" name="residence" id="non-residence"> <label for="non-residence"> Non
+                                Residence </label> </td>
+                    </tr>
+                    <tr>
+                        <td>MARITAL STATUS</td>
+                        <td><input type="radio" name="maried" id="single"> <label for="single"> Single
+                            </label>
+                        </td>
+                        <td><input type="radio" name="maried" id="married"> <label for="married"> Married
+                            </label>
+                        </td>
+                        <td><input type="radio" name="maried" id="widowed"> <label for="widowed"> Widowed
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">CONTACT INFORMATION</th>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS</td>
+                        <td colspan="3"><input type="text" class="form-control" placeholder="Enter address"></td>
+                    </tr>
+                    <tr>
+                        <td>CITY</td>
+                        <td><input type="text" class="form-control" placeholder="Enter city"></td>
+                        <td>STATE</td>
+                        <td><input type="text" class="form-control" placeholder="Enter state"></td>
+                    </tr>
+                    <tr>
+                        <td>ZIP CODE</td>
+                        <td><input type="number" class="form-control" placeholder="Enter zip code"></td>
+                        <td>COUNTRY</td>
+                        <td><input type="text" class="form-control" placeholder="Enter country"></td>
+                    </tr>
+                    <tr>
+                        <td>PHONE</td>
+                        <td><input type="number" class="form-control" placeholder="Enter phone number"></td>
+                        <td>EMAIL</td>
+                        <td><input type="email" class="form-control" placeholder="Enter email address"></td>
+                    </tr>
+                </table>
+                <input type="reset" value="Reset" class="btn btn-secondary">
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

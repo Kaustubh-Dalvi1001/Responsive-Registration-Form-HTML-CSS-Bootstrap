@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2vmin;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#form-div {
+  width: 100%;
+  padding: 2vmin;
+  border-radius: 2vmin;
+}
+
+#form-heading {
+  background-color: #263355;
+  padding: 2vmin;
+  border-radius: 2vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+#registration {
+  font-weight: 500;
+  color: #75bcd8;
+  font-size: 4vmin;
+}
+
+#form {
+  font-size: 5vmin;
+  font-weight: 600;
+  color: white;
+}
+
+#table-div {
+  padding: 2vmin;
+  width: 100%;
+}
+
+#table-1 {
+  width: 100%;
+  color: #282c3f;
+}
+input {
+  outline: none;
+  padding: 0.5vmin 1vmin;
+}
+
+input[type="radio"] {
+  width: 2vmin;
+}
